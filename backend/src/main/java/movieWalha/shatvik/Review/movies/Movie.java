@@ -12,7 +12,7 @@ import java.util.List;
 
 @Document(collection = "movies")
 @Data
-@AllArgsConstructor
+// @AllArgsConstructor
 @NoArgsConstructor
 public class Movie {
     @Id
